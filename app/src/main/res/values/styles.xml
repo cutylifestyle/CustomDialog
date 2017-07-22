@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ProgressDialog_black" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/colorBlack</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ProgressDialog_tran" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/colorTran</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
 </resources>
